@@ -9,7 +9,7 @@ npm install react-drag-ele --save-dev
 
 ```
 
-* 单个功能如下
+* 功能如下
 
 ```html
 
@@ -111,8 +111,10 @@ ReactDOM.render(<App /> ,"#main");
 </DragEle>
 ```
 
+
+
 | 参数 | 说明 | 类型 | 默认值
-- | : - : | - :
+| :-------- | :--------| :--------| :--: |
 | onMouseUpPointer | 回调函数,(pointer,location) => {} pointer: 当前鼠标坐标点,location: 当前元素的位置| function |null |
 |moveX| 只能在X轴移动 | Boolean | false |
 |moveY| 只能在Y轴移动 | Boolean | false |
@@ -139,7 +141,7 @@ ReactDOM.render(<App /> ,"#main");
 ```
 
 | 参数 | 说明 | 类型 | 默认值
-- | : - : | - :
+| :-------- | :--------| :--------| :--: |
 | onDropOverEle | 回调函数,(pointer,location) => {} pointer: 当前鼠标坐标点,location: 当前元素的位置 | function | null |
 
 
@@ -162,7 +164,7 @@ ReactDOM.render(<App /> ,"#main");
 
 
 | 参数 | 说明 | 类型 | 默认值
-- | : - : | - :
+| :-------- | :--------| :--------| :--: |
 | className | 样式 | string | null |
 
 在线演示demo ====================>
